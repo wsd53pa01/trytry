@@ -7,7 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// 小於 18.5     過輕
+/// 18.5 ~ 24    標準
+/// 24 ~ 27      過重
+/// 27 ~ 30      輕度肥胖
+/// 30 ~ 35      中度肥胖
+/// 大於 35      重度肥胖
+/// </summary>
 namespace CaculateBMI005
 {
     public partial class Form1 : Form
